@@ -44,8 +44,14 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
+    - door
+    - roof
+    - laptop
     - dollarDatabase
     dataSetsToActivate:
+    - door
+    - roof
+    - laptop
     - dollarDatabase
   videoBackground:
     clippingMode: 0

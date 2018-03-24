@@ -7,9 +7,14 @@ public class vbscript : MonoBehaviour, IVirtualButtonEventHandler {
 
 	private GameObject vButtonObject;
 	// Use this for initialization
+
+	private GameObject goblin;
+
 	void Start () {
 		vButtonObject = GameObject.Find ("actionButton");
-		vButtonObject.GetComponent<VirtualButtonBehaviour> ().RegisterEventHandler (this);
+		goblin = GameObject.Find ("goblin");
+
+//		vButtonObject.GetComponent<VirtualButtonBehaviour> ().RegisterEventHandler (this);
 	}
 	
 	// Update is called once per frame
@@ -18,9 +23,10 @@ public class vbscript : MonoBehaviour, IVirtualButtonEventHandler {
 //	}
 	public void OnButtonPressed (VirtualButtonAbstractBehaviour vb){
 		Debug.Log ("pressed");
+		goblin.GetComponent<Animation> ().Play ();
 	}
 
 	public void OnButtonReleased (VirtualButtonAbstractBehaviour vb){
-		
+		goblin.GetComponent<Animation> ().Stop ();
 	}
 }
