@@ -7,7 +7,7 @@ Our solution:
 We created a mobile application using the Unity environment and the Vuforia plugin to develop a feature that will improve the customer experience during product offerings. The feature aims at helping insurance agents deliver products and increase sales by carrying out two main tasks:
 
 1. Present a real life scenario in which the customer could encounter an in-home risk (water leakage, fire, thief) by rendering the situation through Augmented Reality. 
-2. Deliver an on screen detailed information about risk mitigation through Statefarm insurance policies. 
+2. Deliver an on-screen detailed information about risk mitigation through Statefarm insurance policies. 
 
 > DevPost - https://devpost.com/software/arinsuranceapp
 
